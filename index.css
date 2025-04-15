@@ -53,7 +53,7 @@ h3 {
 }
 .dropdown-content a {
   display: grid;
-  /*grid-template-columns: 18ch 1fr 1fr 1fr;*/
+  grid-template-columns: 18ch 1fr 1fr 1fr;
 }
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
