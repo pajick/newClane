@@ -1,0 +1,159 @@
+:root {
+  --blue: rgba(145, 196, 226, 0.8);
+  --bdr: rgb(48, 51, 234);
+  --prpl: rgb(185, 96, 230);
+  --drkrblu: rgba(107, 192, 242, 0.7);
+  --gry: rgba(10, 10, 10, 0.4);
+  --ored: orangered;
+  --drkgry: rgb(88, 86, 86);
+  --grn: green;
+  --lgn: lightgreen;
+  --lim: lime;
+  --yel: yellow;
+  --plyl: rgb(234, 234, 150);
+  --gld: rgba(249, 188, 4, 0.5);
+  --mari: rgba(243, 227, 83, 0.893);
+  --brn: rgba(150, 83, 10, 0.994);
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+  margin: 0;
+}
+p {
+  max-width: 80ch;
+}

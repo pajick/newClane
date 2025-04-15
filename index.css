@@ -1,0 +1,114 @@
+@import "base.css";
+body {
+  background-color: rgba(240, 228, 148, 0.5);
+  width: 70%;
+  margin: auto;
+}
+
+main {
+  width: 100%;
+  margin: auto;
+  margin-top: 100px;
+  /* border: 2px solid red; */
+}
+
+h1 {
+  font-size: 5rem;
+  text-shadow: rgb(113, 113, 62) 3px 2px 3px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  margin: auto;
+  margin-top: 0.1ch;
+  text-align: center;
+  border-radius: 10px;
+  border: 0.05ch solid;
+  padding: 0.1ch;
+  background-color: var(--lgn);
+  color: var(--grn);
+  box-shadow: rgb(172, 170, 170) 0.1ch 0.1ch 0.6ch;
+}
+h3 {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  margin: auto;
+  margin-top: 2ch;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgb(150, 149, 149) 0.2ch 0.25ch 0.4ch;
+  padding: 0.3ch;
+  background-color: var(--grn);
+  color: var(--plyl);
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 100px;
+  z-index: 1;
+}
+.dropdown-content a {
+  display: grid;
+  /*grid-template-columns: 18ch 1fr 1fr 1fr;*/
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: grid;
+  grid-template-columns: auto;
+  grid-auto-rows: max-content;
+  align-items: center;
+  width: auto;
+}
+.button {
+  background-color: var(--brn);
+  color: rgba(241, 238, 25, 0.993);
+  padding: 0.3ch;
+  margin: auto;
+  border: 0;
+}
+a:hover {
+  background-color: rgb(244, 151, 10);
+}
+/* .navbut {
+  border: 0ch solid rgb(153, 111, 6);
+  border-radius: 0.4ch;
+  padding: 1.5ch;
+} */
+.item {
+  margin-bottom: 0.5ch;
+  width: auto;
+  padding: 0.5ch;
+  background-color: var(--brn);
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  border: 0.1ch solid rgba(240, 228, 148, 0.844);
+  border-radius: 0.5ch;
+  box-shadow: grey 0.4ch 0.25ch 0.5ch;
+}
+a {
+  text-decoration: none;
+  color: rgb(229, 238, 246);
+}
+
+p {
+  margin-top: 1ch;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  padding-right: 1ch;
+}
+.container {
+  width: auto;
+  padding: 2ch;
+  text-align: left;
+  /* border: 2px solid red; */
+}
+
+.maintext {
+  width: auto;
+  margin: auto;
+}
