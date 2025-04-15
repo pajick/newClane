@@ -62,7 +62,7 @@ h3 {
   grid-template-columns: auto;
   grid-auto-rows: max-content;
   align-items: center;
-  width: 100%;
+  width: auto;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .button {
