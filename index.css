@@ -1,12 +1,12 @@
 @import "base.css";
 body {
   background-color: rgba(240, 228, 148, 0.5);
-  width: 70%;
+  width: 100%;
   margin: auto;
 }
 
 main {
-  width: 100%;
+  width: 60%;
   margin: auto;
   margin-top: 100px;
 }
